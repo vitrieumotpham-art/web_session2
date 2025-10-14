@@ -1,0 +1,12 @@
+header.admin-header
+  .header-left
+    h2 Admin Dashboard
+  .header-right
+    // Optional: thanh tìm kiếm
+    form.search-form(action="#", method="GET")
+      input.form-control(type="text", placeholder="Search...")
+      button.btn.btn-primary(type="submit") Search
+    // User info
+    .user-info
+      span Welcome, Admin
+      a.btn.btn-danger.ml-2(href="#") Logout
